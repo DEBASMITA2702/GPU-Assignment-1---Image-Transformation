@@ -62,7 +62,7 @@ res(i,j) = floor(0.5 × red(i,j)) + floor(sqrt(green(i,j))) + blue(i,j)
 1. Place your `transformation.cu` file inside the `submit/` folder.  
 2. Compile with:
    ```bash
-   nvcc your_idno.cu -o gpu_assignment
+   nvcc transformation.cu -o gpu_assignment
 
 
 Run with provided tester:
